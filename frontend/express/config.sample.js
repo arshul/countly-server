@@ -19,24 +19,7 @@ var countlyConfig = {
     * @property {object=} dbOptions - provide raw driver database options
     * @property {object=} serverOptions - provide raw driver server options, used for all, single, mongos and replica set servers
     */
-    mongodb: {
-        host: "localhost",
-        db: "countly",
-        port: 27017,
-        max_pool_size: 10,
-        //username: test,
-        //password: test,
-        /*
-        dbOptions:{
-            //db options
-            native_parser: true
-        },
-        serverOptions:{
-            //server options
-            ssl:false
-        }
-        */
-    },
+   mongodb:"",
     /*  or for a replica set
     mongodb: {
         replSetServers : [
